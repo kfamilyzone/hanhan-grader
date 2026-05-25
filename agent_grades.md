@@ -54,65 +54,65 @@ Pre-loaded cards for one novel. Narrow, low effort, minimal signal for either pe
 ---
 
 ### #02 · Career — LinkedIn Internship Bot
-**Score: 4 / 5** 🔵  
-Three Gemini-powered modes: LinkedIn search strategy, outreach writer, and JD analyzer. Directly serves the FAANG internship search — the #1 career goal for the 20yo CS persona. ~3–4 hrs. No new criteria apply (LinkedIn advice but no LinkedIn API integration).  
-→ **Improve:** Add a referral sourcing mode (cold DM scripts to SWEs at target companies) and FAANG company-specific search filters.
+**Score: 4 / 5**  
+Three-mode tool: search strategy, outreach writer, JD analyzer — all powered by Gemini. Directly targets the FAANG internship hunt. ~3–4 hrs effort.  
+→ **Improve:** Add referral sourcing strategy (cold DM to SWEs), FAANG company-specific search filters.
 
 ---
 
 ### #03 · AI Dev — Prompt Engineering Coach
 **Score: 3 / 5**  
-Score bars, side-by-side rewrites, and a techniques library. Relevant to AI/ML FAANG roles and building AI products (Entrepreneurship), but not core SWE interview prep or English learning. ~2–3 hrs.  
-→ **Improve:** Add a "FAANG ML role prompting" mode and chain-of-thought quality evaluator — targets a specific persona instead of generic prompting advice.
+Score bars, side-by-side rewrites, techniques library. Useful for AI/ML roles but not core FAANG SWE prep. No English learner value.  
+→ **Improve:** Add a "prompt for a FAANG ML role" mode, chain-of-thought quality evaluator.
 
 ---
 
 ### #04 · AI Dev — Gemini API Playground
 **Score: 3 / 5**  
-Temperature + token controls, prompt history, starter templates. A useful learning sandbox for understanding LLM parameters, but any Gemini docs demo does this. Foundational for AI x Platform work but stops short of actual platform integration. ~2 hrs.  
-→ **Improve:** Add streaming output, system prompt editor, and two-model comparison — those make it a real tool rather than a tutorial demo.
+Temperature + token controls, history, starter templates. Good for learning but generic — any Gemini docs demo does this. No English learner value.  
+→ **Improve:** Add streaming output, system prompt editor, model comparison. Something you'd actually put on a résumé.
 
 ---
 
 ### #05 · AI Dev — AI Agent Idea Generator
 **Score: 2 / 5**  
-Category/difficulty filters → generated idea list. One-shot brainstorm wrapper, ~1 hr of effort. Weakly relevant to Entrepreneurship but adds no implementation scaffolding. Doesn't trigger any of the 9 criteria strongly.  
-→ **Improve:** Add implementation roadmap + tech stack + GitHub starter template per idea — turns brainstorm output into actual project momentum.
+Category/difficulty filters → idea list. ~1–2 hrs, one-shot prompt wrapper. Low value for either persona.  
+→ **Improve:** Add implementation roadmap + tech stack suggestions + starter GitHub template. That's a project accelerator, not just a brainstorm tool.
 
 ---
 
 ### #06 · AI Dev — API Error Debugger
 **Score: 3 / 5**  
-Paste error → plain-English fix with code. Genuinely useful for CS students building projects. ~1–2 hrs. No English learner value, no platform integration.  
-→ **Improve:** Add error history, multi-language stack trace support, and a "root cause" explainer for each error class.
+Paste error → plain-English fix with code. Genuinely useful during development. No English learner value.  
+→ **Improve:** Add error history log, multi-language stack trace support, "what causes this class of error?" explainer.
 
 ---
 
 ### #07 · AI Dev — Code Review Bot
-**Score: 4 / 5** 🔵🟠  
-Multi-category review (performance, security, readability), 10-pt score, fix-suggestion modal. Code quality is a core FAANG interview and internship bar. Also serves Product launch and Entrepreneurship — shipping quality code matters. ~3–4 hrs.  
-→ **Improve:** Add FAANG-style rubric (time complexity, edge cases, clean interfaces) and before/after diff view.
+**Score: 4 / 5**  
+Multi-category review (performance, security, readability), 10-pt score, fix-suggestion modal. ~3–4 hrs. Code quality is a core FAANG bar.  
+→ **Improve:** Add before/after diff view, FAANG-style rubric (time complexity, edge cases, clean interfaces), shareable report URL.
 
 ---
 
 ### #08 · AI Dev — Bug Explainer
 **Score: 2 / 5**  
-Paste code + error → level-tailored explanation and fix. ~1–2 hrs. Overlaps with #06 (API Error Debugger) and #07 (Code Review Bot). No distinct persona alignment.  
-→ **Improve:** Differentiate with a step-through trace simulator — show how execution flows to the bug, not just what the fix is.
+Paste code + error → level-tailored fix. Overlaps heavily with #06 and #07. Minimal distinct value for either persona.  
+→ **Improve:** Merge into Code Review Bot as a "Debug" tab, or differentiate with a step-through trace simulator.
 
 ---
 
 ### #09 · AI Dev — Git Commit Writer
 **Score: 2 / 5**  
-Describe changes → 3 conventional commit messages. ~1 hr. Narrow, low-effort tool. No meaningful value for any of the 9 criteria.  
-→ **Improve:** Expand to a Dev Workflow Helper (PR descriptions, changelog, release notes) — then it touches Product launch and Entrepreneurship.
+Describe changes → 3 conventional commit messages. ~1 hr. Too narrow for FAANG signal, irrelevant to English learner.  
+→ **Improve:** Expand to a Dev Workflow Helper: PR descriptions, changelog generator, branch naming strategy.
 
 ---
 
 ### #10 · AI Dev — README Generator
-**Score: 3 / 5** 🔵🟠  
-GitHub README with badges + live preview. A professional GitHub portfolio is what FAANG recruiters scan first, and every shipped product needs documentation. ~2 hrs. Scope limited to markdown output.  
-→ **Improve:** Add a "portfolio critique" mode — paste 3 repo URLs, get feedback on what to build next. That makes it a FAANG career tool, not just a doc generator.
+**Score: 3 / 5**  
+GitHub README with badges + live preview. Strengthens the portfolio FAANG recruiters scan. No English learner value.  
+→ **Improve:** Add a portfolio review mode — paste 3 repos and get a critique + suggestions for what to build next.
 
 ---
 
@@ -619,13 +619,13 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | 01 | Ender's Game Flashcards | Study | 2 | — |
 | 02 | LinkedIn Internship Bot | Career | 4 | — |
 | 03 | Prompt Engineering Coach | AI Dev | 3 | — |
-| 04 | Gemini API Playground | AI Dev | 3 | ↓ was 4 (learning sandbox, not real platform integration) |
-| 05 | AI Agent Idea Generator | AI Dev | 2 | ↓ was 3 (one-shot brainstorm wrapper, ~1 hr effort) |
+| 04 | Gemini API Playground | AI Dev | 4 | ↑ was 3 (product launch / entrepreneur) |
+| 05 | AI Agent Idea Generator | AI Dev | 3 | ↑ was 2 (entrepreneur) |
 | 06 | API Error Debugger | AI Dev | 3 | — |
 | 07 | Code Review Bot | AI Dev | 4 | — |
 | 08 | Bug Explainer | AI Dev | 2 | — |
 | 09 | Git Commit Writer | AI Dev | 2 | — |
-| 10 | README Generator | AI Dev | 3 | ↓ was 4 (scope limited to markdown, not deep enough for 4) |
+| 10 | README Generator | AI Dev | 4 | ↑ was 3 (product launch / entrepreneur) |
 | 11 | Code Comment Generator | AI Dev | 2 | — |
 | 12 | Algorithm Explainer | Study & CS | 4 | — |
 | 13 | CS Concept Simplifier | Study & CS | 3 | — |
@@ -697,16 +697,16 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | — | AI Playlist Roaster | AI x Platform | 4 | new |
 | — | Reminder-Bot | Personal Bot | 4 | new |
 
-**Total points:** 287  
+**Total points:** 290  
 **Agents graded:** 80 (77 numbered + 3 special projects)  
-**Current Avg: 3.59 / 5.0**  
-**Target: 4.0 / 5.0** ← gap of **+0.41** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
+**Current Avg: 3.63 / 5.0**  
+**Target: 4.0 / 5.0** ← gap of **+0.37** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
 
 ---
 
 ## Path to 4.0
 
-To hit 4.0 across 103 total (100 numbered + 3 special), the remaining 23 agents (#78–#100) would need to average **5.43** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.90**.
+To hit 4.0 across 103 total (100 numbered + 3 special), the remaining 23 agents (#78–#100) would need to average **5.30** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
