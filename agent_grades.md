@@ -587,7 +587,7 @@ Instant SEO score — keyword density, readability, passive voice check, interna
 
 ## Non-Numbered Projects
 
-Projects listed under TTTT, AI x Platform, and Personal Bot on hhanng.github.io. Graded on the same 1–5 scale but tracked separately — not included in the #01–#77 avg.
+Projects listed under TTTT, AI x Platform, and Personal Bot on hhanng.github.io. Graded on the same 1–5 scale and **included in the running average**.
 
 ---
 
@@ -693,17 +693,20 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | 75 | Agile PM Toolkit | Productivity | 4 | new |
 | 76 | A/B Test Designer | Analytics | 4 | new |
 | 77 | SEO Content Optimizer | Marketing | 3 | new |
+| — | US States & Capitals Explorer | TTTT | 4 | new |
+| — | AI Playlist Roaster | AI x Platform | 4 | new |
+| — | Reminder-Bot | Personal Bot | 4 | new |
 
-**Total points:** 278  
-**Agents graded:** 77  
-**Current Avg: 3.61 / 5.0**  
-**Target: 4.0 / 5.0** ← gap of **+0.39** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
+**Total points:** 290  
+**Agents graded:** 80 (77 numbered + 3 special projects)  
+**Current Avg: 3.63 / 5.0**  
+**Target: 4.0 / 5.0** ← gap of **+0.37** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
 
 ---
 
 ## Path to 4.0
 
-To hit 4.0 across 100 agents, the remaining 23 agents (#78–#100) would need to average **5.32** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
+To hit 4.0 across 103 total (100 numbered + 3 special), the remaining 23 agents (#78–#100) would need to average **5.30** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
