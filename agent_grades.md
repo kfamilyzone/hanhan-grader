@@ -585,6 +585,33 @@ Instant SEO score — keyword density, readability, passive voice check, interna
 
 ---
 
+## Non-Numbered Projects
+
+Projects listed under TTTT, AI x Platform, and Personal Bot on hhanng.github.io. Graded on the same 1–5 scale but tracked separately — not included in the #01–#77 avg.
+
+---
+
+### TTTT · US States & Capitals Explorer
+**Score: 4 / 5** 🟡  
+Three learning modes: flashcard pairs, zoomable SVG/Canvas interactive map, and a shape-recognition quiz (identify states by outline). Covers all 50 states and capitals. Built for 8th graders — directly serves the 13yo persona who needs to pass US geography in school. ~3–4 hrs of solid map + quiz engine work.  
+→ **Improve:** Add a bilingual EN/VI mode for state names and a "capitals speed drill" timed quiz — that turns it into a dedicated ESL school prep tool.
+
+---
+
+### AI x Platform · AI Playlist Roaster
+**Score: 4 / 5** 🔵🟣  
+Spotify OAuth 2.0 → retrieve listening history → Gemini AI generates a personalized roast in Gen-Z slang, deployed on Streamlit. Two-platform API integration in one project: Spotify Web API + Gemini API + OAuth flow + prompt engineering for consistent comedic tone. This is portfolio gold for a FAANG internship — shows real-world API integration and deployment skills that a university project rarely teaches. ~4–5 hrs.  
+→ **Improve:** Add a "share your roast" card generator (PNG export with your top artists), and a "serious mode" that gives actual listening insights — that makes it useful AND funny, doubling the audience.
+
+---
+
+### Personal Bot · Reminder-Bot
+**Score: 4 / 5** 🔵🟣  
+Telegram bot that creates reminders via slash commands and syncs bidirectionally with Google Calendar via OAuth 2.0. Natural language or structured input → reminder stored → Telegram notification fires at due time → Calendar entry updated. Demonstrates Telegram Bot API + Google Calendar API + persistent storage + OAuth + backend server architecture. More engineering depth than most portfolio projects. ~4–5 hrs.  
+→ **Improve:** Add AI natural language parsing ("remind me to review leetcode every night at 9") and a daily digest message — that turns a functional bot into an intelligent personal assistant and earns a 5.
+
+---
+
 ## Score Summary
 
 | # | Agent | Category | Score | Changed? |
