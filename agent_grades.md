@@ -13,6 +13,9 @@ Score 1–5 based on any of the following:
 4. **Mom's English** — useful for her mom, a Vietnamese immigrant adult improving everyday English
 5. **Product launch** — helps someone build and ship a real web app or iOS app
 6. **Entrepreneurship** — supports building a startup, side project, or self-launched product/business
+7. **TTTT** — educational study tools for younger students (8th–9th grade level): flashcard apps, interactive maps, quizzes, school-subject learning tools. Aligns with the TTTT product line on hhanng.github.io (e.g. Ender's Game Flashcards, US States & Capitals Explorer)
+8. **AI x Platform** — AI integrated with an external platform via API (Spotify, Telegram, Google Calendar, Discord, social media, etc.). Demonstrates real platform integration skills. Aligns with AI x Platform on hhanng.github.io (e.g. AI Playlist Roaster)
+9. **Personal Bot** — a personal assistant bot that automates everyday tasks (Telegram bot, reminder bot, calendar sync, task manager bot). Aligns with Personal Bot on hhanng.github.io (e.g. Reminder-Bot)
 
 > An agent only needs to score high on **one** criterion to earn a higher grade.
 

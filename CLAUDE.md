@@ -8,6 +8,9 @@ OR how it relates to 13 year old going into high school and came to united state
 OR her mom to improve english
 OR a product to launch via web app or iOS app
 OR a product towards entrepreneurship
+OR how it relates to the TTTT category — educational study tools for younger students (8th–9th grade level), such as flashcard apps, interactive maps, quizzes, and school-subject learning tools
+OR how it fits the AI x Platform category — AI integrated with an external platform via API (Spotify, Telegram, Google Calendar, Discord, social media, etc.), demonstrating platform integration skills
+OR how it fits the Personal Bot category — a personal assistant bot (Telegram bot, reminder bot, calendar sync, task manager bot) that automates everyday personal tasks
 
 I created #01 a personal grade it a 2
 
