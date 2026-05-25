@@ -37,8 +37,7 @@ Score 1–5 based on any of the following:
 | 2026-05-17 | 45 / 100     | 3.48 (#01–#42)    | No new agents — count unchanged |
 | 2026-05-18 | 45 / 100     | 3.48 (#01–#42)    | No new agents — count unchanged |
 | 2026-05-24 | 75 / 100     | 3.61 (#01–#75)    | #43–#75 graded — 33 new agents (Study & CS, Sis English, Career, Startup, Productivity, Dev Tools) |
-| 2026-05-24 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
-| 2026-05-25 | 77 / 100     | 3.61 (#01–#77)    | No new agents — count unchanged |
+| 2026-05-25 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
 
 ---
 
@@ -338,9 +337,6 @@ Animated call stack explorer with 8 classic algorithms (Fibonacci, Factorial, Me
 
 ---
 
-
----
-
 ### #43 · Study & CS — OS Concepts Simulator
 **Score: 4 / 5** 🔵  
 Interactive OS learning tool with CPU scheduling (FCFS, SJF, Round Robin, Priority), memory allocation, page replacement, deadlock detection, and disk scheduling visualizations. OS fundamentals are tested in FAANG system design rounds. ~4–5 hrs effort.  
@@ -573,18 +569,19 @@ Drag-and-drop Kanban board with story points and blocker flags, sprint planner w
 ---
 
 ### #76 · Analytics — A/B Test Designer
-**Score: 4 / 5**  
-Hypothesis builder, sample size calculator, p-value significance check, per-variant result logger, winner declaration — all saved locally. Experimental design is core to FAANG product/data roles and any product launch. ~4–6 hrs.  
-→ **Improve:** Add Bayesian A/B mode alongside frequentist p-value, multi-variate (A/B/C) support, CSV export.
+**Score: 4 / 5** 🟠🟣  
+Hypothesis builder, sample size calculator, p-value significance check, per-variant results logger, and winner declaration — all saved locally without a backend. Experimental design is core to FAANG product/data roles and essential for product launch iteration. ~4–5 hrs.  
+→ **Improve:** Add Bayesian A/B mode alongside frequentist p-value, multi-variant (A/B/C) testing support, and CSV export for team sharing.
 
 ---
 
 ### #77 · Marketing — SEO Content Optimizer
 **Score: 3 / 5**  
-Instant SEO score with keyword density, readability, passive voice check, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, 30-item pre-publish checklist. Good complexity ~3–4 hrs. No FAANG or English-learner value.  
+Instant SEO score — keyword density, readability, passive voice check, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, 30-item pre-publish checklist. Good complexity ~3–4 hrs. No FAANG or English-learner value.  
 → **Improve:** Add competitor URL comparison, keyword difficulty scoring via API, content brief generator from a target keyword.
 
 ---
+
 ## Score Summary
 
 | # | Agent | Category | Score | Changed? |
