@@ -1,5 +1,5 @@
 # Han Han AI Agent Grader
-**Last scanned:** 2026-05-24  
+**Last scanned:** 2026-05-25  
 **Progress:** 77 / 100 (77 numbered agents #01–#77)
 
 ---
@@ -13,6 +13,9 @@ Score 1–5 based on any of the following:
 4. **Mom's English** — useful for her mom, a Vietnamese immigrant adult improving everyday English
 5. **Product launch** — helps someone build and ship a real web app or iOS app
 6. **Entrepreneurship** — supports building a startup, side project, or self-launched product/business
+7. **TTTT** — educational study tools for younger students (8th–9th grade level): flashcard apps, interactive maps, quizzes, school-subject learning tools. Aligns with the TTTT product line on hhanng.github.io (e.g. Ender's Game Flashcards, US States & Capitals Explorer)
+8. **AI x Platform** — AI integrated with an external platform via API (Spotify, Telegram, Google Calendar, Discord, social media, etc.). Demonstrates real platform integration skills. Aligns with AI x Platform on hhanng.github.io (e.g. AI Playlist Roaster)
+9. **Personal Bot** — a personal assistant bot that automates everyday tasks (Telegram bot, reminder bot, calendar sync, task manager bot). Aligns with Personal Bot on hhanng.github.io (e.g. Reminder-Bot)
 
 > An agent only needs to score high on **one** criterion to earn a higher grade.
 
@@ -37,7 +40,7 @@ Score 1–5 based on any of the following:
 | 2026-05-17 | 45 / 100     | 3.48 (#01–#42)    | No new agents — count unchanged |
 | 2026-05-18 | 45 / 100     | 3.48 (#01–#42)    | No new agents — count unchanged |
 | 2026-05-24 | 75 / 100     | 3.61 (#01–#75)    | #43–#75 graded — 33 new agents (Study & CS, Sis English, Career, Startup, Productivity, Dev Tools) |
-| 2026-05-24 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
+| 2026-05-25 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
 
 ---
 
@@ -337,9 +340,6 @@ Animated call stack explorer with 8 classic algorithms (Fibonacci, Factorial, Me
 
 ---
 
-
----
-
 ### #43 · Study & CS — OS Concepts Simulator
 **Score: 4 / 5** 🔵  
 Interactive OS learning tool with CPU scheduling (FCFS, SJF, Round Robin, Priority), memory allocation, page replacement, deadlock detection, and disk scheduling visualizations. OS fundamentals are tested in FAANG system design rounds. ~4–5 hrs effort.  
@@ -572,18 +572,46 @@ Drag-and-drop Kanban board with story points and blocker flags, sprint planner w
 ---
 
 ### #76 · Analytics — A/B Test Designer
-**Score: 4 / 5**  
-Hypothesis builder, sample size calculator, p-value significance check, per-variant result logger, winner declaration — all saved locally. Experimental design is core to FAANG product/data roles and any product launch. ~4–6 hrs.  
-→ **Improve:** Add Bayesian A/B mode alongside frequentist p-value, multi-variate (A/B/C) support, CSV export.
+**Score: 4 / 5** 🟠🟣  
+Hypothesis builder, sample size calculator, p-value significance check, per-variant results logger, and winner declaration — all saved locally without a backend. Experimental design is core to FAANG product/data roles and essential for product launch iteration. ~4–5 hrs.  
+→ **Improve:** Add Bayesian A/B mode alongside frequentist p-value, multi-variant (A/B/C) testing support, and CSV export for team sharing.
 
 ---
 
 ### #77 · Marketing — SEO Content Optimizer
 **Score: 3 / 5**  
-Instant SEO score with keyword density, readability, passive voice check, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, 30-item pre-publish checklist. Good complexity ~3–4 hrs. No FAANG or English-learner value.  
+Instant SEO score — keyword density, readability, passive voice check, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, 30-item pre-publish checklist. Good complexity ~3–4 hrs. No FAANG or English-learner value.  
 → **Improve:** Add competitor URL comparison, keyword difficulty scoring via API, content brief generator from a target keyword.
 
 ---
+
+## Non-Numbered Projects
+
+Projects listed under TTTT, AI x Platform, and Personal Bot on hhanng.github.io. Graded on the same 1–5 scale and **included in the running average**.
+
+---
+
+### TTTT · US States & Capitals Explorer
+**Score: 4 / 5** 🟡  
+Three learning modes: flashcard pairs, zoomable SVG/Canvas interactive map, and a shape-recognition quiz (identify states by outline). Covers all 50 states and capitals. Built for 8th graders — directly serves the 13yo persona who needs to pass US geography in school. ~3–4 hrs of solid map + quiz engine work.  
+→ **Improve:** Add a bilingual EN/VI mode for state names and a "capitals speed drill" timed quiz — that turns it into a dedicated ESL school prep tool.
+
+---
+
+### AI x Platform · AI Playlist Roaster
+**Score: 4 / 5** 🔵🟣  
+Spotify OAuth 2.0 → retrieve listening history → Gemini AI generates a personalized roast in Gen-Z slang, deployed on Streamlit. Two-platform API integration in one project: Spotify Web API + Gemini API + OAuth flow + prompt engineering for consistent comedic tone. This is portfolio gold for a FAANG internship — shows real-world API integration and deployment skills that a university project rarely teaches. ~4–5 hrs.  
+→ **Improve:** Add a "share your roast" card generator (PNG export with your top artists), and a "serious mode" that gives actual listening insights — that makes it useful AND funny, doubling the audience.
+
+---
+
+### Personal Bot · Reminder-Bot
+**Score: 4 / 5** 🔵🟣  
+Telegram bot that creates reminders via slash commands and syncs bidirectionally with Google Calendar via OAuth 2.0. Natural language or structured input → reminder stored → Telegram notification fires at due time → Calendar entry updated. Demonstrates Telegram Bot API + Google Calendar API + persistent storage + OAuth + backend server architecture. More engineering depth than most portfolio projects. ~4–5 hrs.  
+→ **Improve:** Add AI natural language parsing ("remind me to review leetcode every night at 9") and a daily digest message — that turns a functional bot into an intelligent personal assistant and earns a 5.
+
+---
+
 ## Score Summary
 
 | # | Agent | Category | Score | Changed? |
@@ -665,17 +693,20 @@ Instant SEO score with keyword density, readability, passive voice check, intern
 | 75 | Agile PM Toolkit | Productivity | 4 | new |
 | 76 | A/B Test Designer | Analytics | 4 | new |
 | 77 | SEO Content Optimizer | Marketing | 3 | new |
+| — | US States & Capitals Explorer | TTTT | 4 | new |
+| — | AI Playlist Roaster | AI x Platform | 4 | new |
+| — | Reminder-Bot | Personal Bot | 4 | new |
 
-**Total points:** 278  
-**Agents graded:** 77  
-**Current Avg: 3.61 / 5.0**  
-**Target: 4.0 / 5.0** ← gap of **+0.39** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
+**Total points:** 290  
+**Agents graded:** 80 (77 numbered + 3 special projects)  
+**Current Avg: 3.63 / 5.0**  
+**Target: 4.0 / 5.0** ← gap of **+0.37** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
 
 ---
 
 ## Path to 4.0
 
-To hit 4.0 across 100 agents, the remaining 23 agents (#78–#100) would need to average **5.32** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
+To hit 4.0 across 103 total (100 numbered + 3 special), the remaining 23 agents (#78–#100) would need to average **5.30** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
