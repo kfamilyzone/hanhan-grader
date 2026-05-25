@@ -1,6 +1,6 @@
 # Han Han AI Agent Grader
 **Last scanned:** 2026-05-24  
-**Progress:** 75 / 100 (75 numbered agents #01–#75)
+**Progress:** 77 / 100 (77 numbered agents #01–#77)
 
 ---
 
@@ -37,6 +37,7 @@ Score 1–5 based on any of the following:
 | 2026-05-17 | 45 / 100     | 3.48 (#01–#42)    | No new agents — count unchanged |
 | 2026-05-18 | 45 / 100     | 3.48 (#01–#42)    | No new agents — count unchanged |
 | 2026-05-24 | 75 / 100     | 3.61 (#01–#75)    | #43–#75 graded — 33 new agents (Study & CS, Sis English, Career, Startup, Productivity, Dev Tools) |
+| 2026-05-24 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
 
 ---
 
@@ -569,6 +570,20 @@ Drag-and-drop Kanban board with story points and blocker flags, sprint planner w
 → **Improve:** Add team collaboration (shareable board link) and a "sprint health" AI summary that flags risks based on burndown trajectory.
 
 ---
+
+### #76 · Analytics — A/B Test Designer
+**Score: 4 / 5**  
+Hypothesis builder, sample size calculator, p-value significance check, per-variant result logger, winner declaration — all saved locally. Experimental design is core to FAANG product/data roles and any product launch. ~4–6 hrs.  
+→ **Improve:** Add Bayesian A/B mode alongside frequentist p-value, multi-variate (A/B/C) support, CSV export.
+
+---
+
+### #77 · Marketing — SEO Content Optimizer
+**Score: 3 / 5**  
+Instant SEO score with keyword density, readability, passive voice check, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, 30-item pre-publish checklist. Good complexity ~3–4 hrs. No FAANG or English-learner value.  
+→ **Improve:** Add competitor URL comparison, keyword difficulty scoring via API, content brief generator from a target keyword.
+
+---
 ## Score Summary
 
 | # | Agent | Category | Score | Changed? |
@@ -648,17 +663,19 @@ Drag-and-drop Kanban board with story points and blocker flags, sprint planner w
 | 73 | Pitch Deck Studio | Startup | 4 | new |
 | 74 | App Store Optimization Suite | Mobile | 4 | new |
 | 75 | Agile PM Toolkit | Productivity | 4 | new |
+| 76 | A/B Test Designer | Analytics | 4 | new |
+| 77 | SEO Content Optimizer | Marketing | 3 | new |
 
-**Total points:** 271  
-**Agents graded:** 75  
+**Total points:** 278  
+**Agents graded:** 77  
 **Current Avg: 3.61 / 5.0**  
-**Target: 4.0 / 5.0** ← gap of **+0.39** (mathematically unreachable — max possible avg with all remaining 5s = 3.96)
+**Target: 4.0 / 5.0** ← gap of **+0.39** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
 
 ---
 
 ## Path to 4.0
 
-To hit 4.0 across 100 agents, the remaining 25 agents (#76–#100) would need to average **5.16** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 25 remaining agents, the best possible avg is **3.96**.
+To hit 4.0 across 100 agents, the remaining 23 agents (#78–#100) would need to average **5.32** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
