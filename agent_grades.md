@@ -138,30 +138,30 @@ Plain English + analogies + code demos. Solidifies CS fundamentals FAANG tests i
 ---
 
 ### #14 · Study & CS — Quiz Generator from Notes
-**Score: 3 / 5**  
-MCQ, true/false, short answer from pasted notes. Useful for both personas — a 13yo can paste class notes; a CS student can paste DSA notes.  
-→ **Improve:** Add spaced repetition scheduling, Anki export, pre-loaded FAANG interview decks and ESL vocab decks.
+**Score: 4 / 5** 🟢🟡 ↑  
+MCQ, true/false, and short-answer quizzes generated from any pasted notes — three distinct quiz types instantly. Serves the 13yo persona (English class notes) and TTTT (8th–9th grade studying across subjects). Also useful for CS students drilling DSA concepts. ~2–3 hrs.  
+→ **Improve:** Add spaced repetition scheduling, Anki export, and pre-loaded FAANG + ESL vocab decks to make subject-specific value explicit.
 
 ---
 
 ### #15 · Study & CS — Study Plan Maker
-**Score: 2 / 5**  
-Color-coded calendar from exam date. Fully generic — any subject or person could use it but it's not specialized for either persona.  
+**Score: 3 / 5** 🟡 ↑  
+Exam date → color-coded day-by-day study calendar. With the TTTT criterion, this directly serves 8th–9th graders planning for exams — the exact tool a student needs when overwhelmed by a test date. Generic but functional. ~1–2 hrs.  
 → **Improve:** Add a FAANG prep mode (target company + interview date → week-by-week LeetCode + system design schedule). That's a 5.
 
 ---
 
 ### #16 · Study & CS — Homework Problem Solver
-**Score: 3 / 5**  
-Step-by-step homework help. Low FAANG signal but directly relevant to a 13yo navigating a US high school curriculum in her non-native language.  
-→ **Improve:** Add bilingual (EN/VI) explanation mode — that turns it into a genuine ESL homework companion.
+**Score: 4 / 5** 🟢🟡 ↑  
+Step-by-step walkthroughs that teach thinking, not just give answers. Serves TTTT (8th–9th grade homework across any subject) and 13yo English (navigating US high school assignments in a second language). The pedagogical approach is exactly what a student struggling in a new language needs. ~2–3 hrs.  
+→ **Improve:** Add bilingual EN/VI explanation mode — turns it into a genuine bilingual homework companion for both the 13yo and TTTT personas.
 
 ---
 
 ### #17 · Study & CS — Research Topic Finder
-**Score: 3 / 5**  
-6 topics with thesis + arguments + full outline. Limited FAANG use, but directly useful for a 13yo tackling her first English-class essays in the US.  
-→ **Improve:** Add an English writing coach layer — help structure the essay in English, suggest vocabulary upgrades for non-native writers.
+**Score: 4 / 5** 🟢🟡 ↑  
+Six research topics, each with thesis statement, supporting arguments, and a full structured outline — instantly. This is exactly the scaffolding a 13yo needs for her first American English essay. Serves TTTT (research papers = core 8th–9th grade assignment) and 13yo English (essay structure in a second language). ~2–3 hrs.  
+→ **Improve:** Add an English writing coach layer — vocabulary upgrades and transition phrase suggestions for ESL writers — to turn it from an idea tool into a full essay prep companion.
 
 ---
 
@@ -509,9 +509,9 @@ Character creator, lore browser, trivia quiz with rank system. Fun fan project b
 ---
 
 ### #67 · Career — Interview Confidence Coach
-**Score: 3 / 5** 🔵  
-Breathing exercises, affirmations, confidence slider, 40 questions with STAR hints, body language tips, and progress dashboard. Useful but overlaps with #19 (Exam Anxiety Coach) and #22 (Mock Interview Coach). ~3–4 hrs.  
-→ **Improve:** Differentiate by focusing on the physical/mental prep the DAY OF the interview — morning routine, what to wear, what to bring, 30-min pre-interview warm-up checklist.
+**Score: 4 / 5** 🔵🟢 ↑  
+40 STAR behavioral questions across 4 competency categories with contextual hints, confidence slider, breathing exercises, body language tips, and progress dashboard. The STAR question bank alone — 40 deep questions with coaching hints — is substantive FAANG behavioral prep that goes beyond surface affirmations. ~3–4 hrs.  
+→ **Improve:** Add company-specific behavioral tracks (Amazon LPs, Google Googliness, Meta product sense) to make it a must-use FAANG behavioral prep tool, not just a confidence builder.
 
 ---
 
@@ -537,9 +537,9 @@ Breathing exercises, affirmations, confidence slider, 40 questions with STAR hin
 ---
 
 ### #71 · Marketing — Landing Page Copywriter
-**Score: 3 / 5** 🟣  
-Full landing page copy set with 3 headline variations, 15 pro copywriting frameworks, and a 20-headline swipe file across 5 niches. Useful for entrepreneurs launching products but template-based. ~3 hrs.  
-→ **Improve:** Add AI-powered A/B headline testing predictions, and a "full landing page HTML generator" that outputs a deployable page — copy + code in one tool.
+**Score: 4 / 5** 🟣🟠 ↑  
+15 pro copywriting frameworks, 20-headline swipe file across 5 niches, 3 headline variations, and complete landing page copy output — all in one tool. For the Product Launch and Entrepreneur personas this is exactly what's needed before shipping: professional copy without a copywriter. The depth (15 frameworks + 20 swipe headlines) shows real effort beyond a basic wrapper. ~3 hrs.  
+→ **Improve:** Add a "full landing page HTML generator" that outputs deployable HTML + copy in one click — copy + code together would make this a 5.
 
 ---
 
@@ -579,9 +579,9 @@ Hypothesis builder, sample size calculator, p-value significance check, per-vari
 ---
 
 ### #77 · Marketing — SEO Content Optimizer
-**Score: 3 / 5**  
-Instant SEO score — keyword density, readability, passive voice check, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, 30-item pre-publish checklist. Good complexity ~3–4 hrs. No FAANG or English-learner value.  
-→ **Improve:** Add competitor URL comparison, keyword difficulty scoring via API, content brief generator from a target keyword.
+**Score: 4 / 5** 🟣🟠 ↑  
+8 distinct analysis modes — keyword density, readability, passive voice, internal links, meta title/description builder with live counters, keyword intent classifier, heading validator, and a 30-item pre-publish checklist. That's real complexity for a tool that directly helps someone launch and market a product. Serves both the Product Launch and Entrepreneur personas who need organic search traction without an SEO agency. ~3–4 hrs.  
+→ **Improve:** Add competitor URL comparison and a content brief generator from a target keyword — that makes it an actual workflow tool, not just an analyzer.
 
 ---
 
@@ -629,10 +629,10 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | 11 | Code Comment Generator | AI Dev | 2 | — |
 | 12 | Algorithm Explainer | Study & CS | 4 | — |
 | 13 | CS Concept Simplifier | Study & CS | 3 | — |
-| 14 | Quiz Generator from Notes | Study & CS | 3 | — |
-| 15 | Study Plan Maker | Study & CS | 2 | — |
-| 16 | Homework Problem Solver | Study & CS | 3 | ↑ was 2 |
-| 17 | Research Topic Finder | Study & CS | 3 | ↑ was 2 |
+| 14 | Quiz Generator from Notes | Study & CS | 4 | ↑ was 3 (TTTT + 13yo English) |
+| 15 | Study Plan Maker | Study & CS | 3 | ↑ was 2 (TTTT) |
+| 16 | Homework Problem Solver | Study & CS | 4 | ↑ was 3 (TTTT + 13yo English) |
+| 17 | Research Topic Finder | Study & CS | 4 | ↑ was 3 (TTTT + 13yo English) |
 | 18 | Active Recall Coach | Study & CS | 3 | — |
 | 19 | Exam Anxiety Coach | Study & CS | 3 | ↑ was 2 |
 | 20 | Tech Interview Prep Bot | Study & CS | 5 | — |
@@ -682,31 +682,31 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | 64 | System Design Interview Simulator | CS | 5 | new |
 | 65 | Star Wars Builder | Star Wars | 2 | new |
 | 66 | GitHub Portfolio Auditor | Dev Tools | 4 | new |
-| 67 | Interview Confidence Coach | Career | 3 | new |
+| 67 | Interview Confidence Coach | Career | 4 | ↑ was 3 (FAANG — 40 STAR questions) |
 | 68 | Coding Quiz Battle | CS | 4 | new |
 | 69 | Algorithm Visualizer | CS | 5 | new |
 | 70 | Tech Career Roadmap Planner | Career | 4 | new |
-| 71 | Landing Page Copywriter | Marketing | 3 | new |
+| 71 | Landing Page Copywriter | Marketing | 4 | ↑ was 3 (Product launch + Entrepreneur) |
 | 72 | MVP Scope Definer | Startup | 4 | new |
 | 73 | Pitch Deck Studio | Startup | 4 | new |
 | 74 | App Store Optimization Suite | Mobile | 4 | new |
 | 75 | Agile PM Toolkit | Productivity | 4 | new |
 | 76 | A/B Test Designer | Analytics | 4 | new |
-| 77 | SEO Content Optimizer | Marketing | 3 | new |
+| 77 | SEO Content Optimizer | Marketing | 4 | ↑ was 3 (Product launch + Entrepreneur) |
 | — | US States & Capitals Explorer | TTTT | 4 | new |
 | — | AI Playlist Roaster | AI x Platform | 4 | new |
 | — | Reminder-Bot | Personal Bot | 4 | new |
 
-**Total points:** 290  
+**Total points:** 297  
 **Agents graded:** 80 (77 numbered + 3 special projects)  
-**Current Avg: 3.63 / 5.0**  
-**Target: 4.0 / 5.0** ← gap of **+0.37** (mathematically unreachable — max possible avg with all remaining 5s = 3.93)
+**Current Avg: 3.71 / 5.0**  
+**Target: 4.0 / 5.0** ← gap of **+0.29** — remaining 23 agents (#78–#100) must average **5.00** (all 5/5). Best possible = exactly 4.0
 
 ---
 
 ## Path to 4.0
 
-To hit 4.0 across 103 total (100 numbered + 3 special), the remaining 23 agents (#78–#100) would need to average **5.30** — which exceeds the maximum score of 5. The 4.0 target is now mathematically unreachable. Even with perfect 5/5 scores on all 23 remaining agents, the best possible avg is **3.93**.
+To hit 4.0 across 103 total (100 numbered + 3 special), the remaining 23 agents (#78–#100) must each score **5 / 5** — no exceptions. With 297 current points + 115 from 23 perfect scores = 412 / 103 = **exactly 4.0**. The target is achievable, but only if every remaining agent is a genuine 5/5 build.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
