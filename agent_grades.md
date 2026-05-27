@@ -42,15 +42,16 @@ Score 1–5 based on any of the following:
 | 2026-05-24 | 75 / 100     | 3.61 (#01–#75)    | #43–#75 graded — 33 new agents (Study & CS, Sis English, Career, Startup, Productivity, Dev Tools) |
 | 2026-05-25 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
 | 2026-05-26 | 100 / 100    | 3.73 (#01–#100)   | #78–#100 graded — 23 new agents (Branding, Product, Fitness, Wellness, Dev Tools, AI/ML, Career) |
+| 2026-05-27 | 100 / 100    | 3.75 (#01–#100)   | Recheck: #01 → 4, synced 5 stale grade entries (#04 #05 #10 #28 #30) |
 
 ---
 
 ## Grades
 
 ### #01 · Study — Ender's Game Flashcards
-**Score: 2 / 5** *(self-graded)*  
-Pre-loaded cards for one novel. Narrow, low effort, minimal signal for either persona.  
-→ **Improve:** Rebuild as a CS vocab or English vocab flashcard app with spaced repetition — serves both personas at once.
+**Score: 4 / 5** 🟡 ↑  
+40 character/plot/vocabulary flashcard pairs for Ender's Game — a standard 8th–9th grade English class assignment — plus an AI generator that creates new cards from any pasted chapter text. Serves the TTTT persona directly (8th-grade English lit study tool) and the 13yo English persona (vocabulary + reading comprehension for an immigrant navigating American literature class for the first time). ~2–3 hrs.  
+→ **Improve:** Add three quiz modes (multiple choice, fill-in-the-blank, matching) and a weak-card spaced repetition system — that turns it from a flashcard viewer into a full TTTT study platform worth a 5.
 
 ---
 
@@ -69,16 +70,16 @@ Score bars, side-by-side rewrites, techniques library. Useful for AI/ML roles bu
 ---
 
 ### #04 · AI Dev — Gemini API Playground
-**Score: 3 / 5**  
-Temperature + token controls, history, starter templates. Good for learning but generic — any Gemini docs demo does this. No English learner value.  
-→ **Improve:** Add streaming output, system prompt editor, model comparison. Something you'd actually put on a résumé.
+**Score: 4 / 5** 🟠🟣 ↑  
+Temperature + token controls, prompt history, and starter templates. A hands-on sandbox for anyone building an AI-powered product — understanding how model parameters affect output is essential before committing to an API integration. Serves the Product Launch and Entrepreneur personas who need to prototype AI features before building them properly. ~3 hrs.  
+→ **Improve:** Add streaming output, system prompt editor, and model comparison — turns it from a playground into a real product prototyping tool worth putting on a résumé.
 
 ---
 
 ### #05 · AI Dev — AI Agent Idea Generator
-**Score: 2 / 5**  
-Category/difficulty filters → idea list. ~1–2 hrs, one-shot prompt wrapper. Low value for either persona.  
-→ **Improve:** Add implementation roadmap + tech stack suggestions + starter GitHub template. That's a project accelerator, not just a brainstorm tool.
+**Score: 3 / 5** 🟣 ↑  
+Category and difficulty filters → curated project idea list. Useful starting point for an entrepreneur figuring out what to build next — idea discovery is a real friction point. ~1–2 hrs.  
+→ **Improve:** Add an implementation roadmap + tech stack recommendation + starter GitHub template per idea. That turns a brainstorm list into a real project accelerator.
 
 ---
 
@@ -111,9 +112,9 @@ Describe changes → 3 conventional commit messages. ~1 hr. Too narrow for FAANG
 ---
 
 ### #10 · AI Dev — README Generator
-**Score: 3 / 5**  
-GitHub README with badges + live preview. Strengthens the portfolio FAANG recruiters scan. No English learner value.  
-→ **Improve:** Add a portfolio review mode — paste 3 repos and get a critique + suggestions for what to build next.
+**Score: 4 / 5** 🟠🟣 ↑  
+GitHub README with badges, live preview, and structured sections (installation, usage, API reference, contributing). A polished README is the first thing FAANG recruiters scan when evaluating a portfolio — this directly serves the Product Launch persona (open-source project presentation) and Entrepreneur (side project credibility). ~2–3 hrs.  
+→ **Improve:** Add a portfolio review mode — paste 3 repo READMEs and get a ranked critique with suggestions for what to build next to fill skill gaps.
 
 ---
 
@@ -237,9 +238,9 @@ Bilingual AI chat partner with voice input/output, hints, and real-time correcti
 ---
 
 ### #28 · AI Dev — AI Chatbot Builder Guide
-**Score: 3 / 5**  
-8-step interactive tutorial to build and deploy a Gemini chatbot. Shows teaching ability and AI depth. No English learner value.  
-→ **Improve:** Add deployment to GCP Cloud Run or Vercel with GitHub Actions CI/CD — that's exactly what FAANG internships require.
+**Score: 4 / 5** 🟣🔵 ↑  
+8-step interactive tutorial to build and deploy a Gemini chatbot — from API key setup to final deployment. Teaching AI product development step-by-step serves both the Entrepreneur (ship your first AI product) and FAANG (AI/ML engineering pathway for 2029) personas. ~3–4 hrs of curriculum design + interactive UI.  
+→ **Improve:** Add deployment to GCP Cloud Run or Vercel with a GitHub Actions CI/CD step — that's exactly the stack FAANG internship projects run on.
 
 ---
 
@@ -251,9 +252,9 @@ Format, validate, tree view, plain-English explanations. Genuinely useful dev to
 ---
 
 ### #30 · AI Dev — CSS Style Generator
-**Score: 3 / 5**  
-Component picker, vibe selector, live preview, Tailwind + CSS-in-JS output, variations, export. ~4–5 hrs. Well-built with good UX instincts.  
-→ **Improve:** Add React/Vue component code output, WCAG accessibility checker, design-token JSON export. That's a real dev tool, not just a CSS toy.
+**Score: 4 / 5** 🟠🟣 ↑  
+Component picker, vibe selector, live preview, Tailwind + CSS-in-JS output, variations, and export. ~4–5 hrs of solid UI work. Serves the Product Launch persona shipping a web app (instant styled components) and the Entrepreneur building an MVP. Multi-output format (Tailwind + CSS-in-JS) shows real front-end product thinking.  
+→ **Improve:** Add React/Vue component code output and a WCAG accessibility checker — turns it into a professional front-end dev tool worth a 5.
 
 ---
 
@@ -778,7 +779,7 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 
 | # | Agent | Category | Score | Changed? |
 |---|-------|----------|-------|----------|
-| 01 | Ender's Game Flashcards | Study | 2 | — |
+| 01 | Ender's Game Flashcards | Study | 4 | ↑ was 2 (TTTT + 13yo English) |
 | 02 | LinkedIn Internship Bot | Career | 4 | — |
 | 03 | Prompt Engineering Coach | AI Dev | 3 | — |
 | 04 | Gemini API Playground | AI Dev | 4 | ↑ was 3 (product launch / entrepreneur) |
@@ -882,16 +883,16 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | — | AI Playlist Roaster | AI x Platform | 4 | new |
 | — | Reminder-Bot | Personal Bot | 4 | new |
 
-**Total points:** 384  
+**Total points:** 386  
 **Agents graded:** 103 (100 numbered + 3 special projects)  
-**Current Avg: 3.73 / 5.0**  
-**Target: 4.0 / 5.0** ← all 100 numbered agents graded. Final avg: **3.73** (384 / 103)
+**Current Avg: 3.75 / 5.0**  
+**Target: 4.0 / 5.0** ← all 100 numbered agents graded. Final avg: **3.75** (386 / 103)
 
 ---
 
 ## Path to 4.0
 
-All 103 agents graded (100 numbered + 3 special). Final avg: **3.73 / 5.0** (384 pts). The 4.0 target was not reached. The gap: 0.27 points short. A v2 regrade opportunity exists if quality improves — or if a bonus TTTT/Platform/Personal Bot project scores 5/5 and is added to the count.
+All 103 agents graded (100 numbered + 3 special). Final avg: **3.75 / 5.0** (386 pts). The 4.0 target was not reached. The gap: 0.25 points short. A v2 regrade opportunity exists if quality improves — or if a bonus TTTT/Platform/Personal Bot project scores 5/5 and is added to the count.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
