@@ -43,6 +43,7 @@ Score 1–5 based on any of the following:
 | 2026-05-25 | 77 / 100     | 3.61 (#01–#77)    | #76–#77 graded — 2 new agents (Analytics, Marketing) |
 | 2026-05-26 | 100 / 100    | 3.73 (#01–#100)   | #78–#100 graded — 23 new agents (Branding, Product, Fitness, Wellness, Dev Tools, AI/ML, Career) |
 | 2026-05-27 | 100 / 100    | 3.75 (#01–#100)   | Recheck: #01 → 4, synced 5 stale grade entries (#04 #05 #10 #28 #30) |
+| 2026-05-29 | 100 / 100    | 3.78 (#01–#100)   | Full recheck: #03 → 4, #13 → 4, #59 → 4 |
 
 ---
 
@@ -63,9 +64,9 @@ Three-mode tool: search strategy, outreach writer, JD analyzer — all powered b
 ---
 
 ### #03 · AI Dev — Prompt Engineering Coach
-**Score: 3 / 5**  
-Score bars, side-by-side rewrites, techniques library. Useful for AI/ML roles but not core FAANG SWE prep. No English learner value.  
-→ **Improve:** Add a "prompt for a FAANG ML role" mode, chain-of-thought quality evaluator.
+**Score: 4 / 5** 🔵 ↑  
+Score bars, side-by-side prompt rewrites, and a techniques library. Three distinct features showing real depth. By 2029, prompt engineering is table stakes for FAANG AI/ML roles — every AI engineer at Google, Meta, and Anthropic writes and evaluates prompts daily. The scoring mechanism + comparison view makes this active learning, not passive reading. ~2–3 hrs.  
+→ **Improve:** Add a "chain-of-thought quality evaluator" and a FAANG ML role-specific mode (system prompts for classification, summarization, function calling) — that's a 5.
 
 ---
 
@@ -133,9 +134,9 @@ Analogies, visual trace, Big O, quiz. Algorithms are 80% of LC-style FAANG inter
 ---
 
 ### #13 · Study & CS — CS Concept Simplifier
-**Score: 3 / 5**  
-Plain English + analogies + code demos. Solidifies CS fundamentals FAANG tests in depth. No English learner value.  
-→ **Improve:** Add a concept prerequisite map, add "how does this show up in a FAANG interview?" section per concept.
+**Score: 4 / 5** 🟡🔵 ↑  
+Plain English explanations + analogies + code demos for CS concepts. Directly serves the TTTT persona — 8th–9th grade intro CS covers exactly these fundamentals (variables, loops, functions, data structures) and plain-English explanations without jargon are what a younger student needs. Also serves the FAANG path by solidifying foundational CS depth. ~2–3 hrs.  
+→ **Improve:** Add a "how does this show up in a FAANG interview?" section per concept and a prerequisite map — connects classroom understanding to interview application.
 
 ---
 
@@ -455,9 +456,9 @@ Navigate friendships, dating, drama, peer pressure, and school cliques — pract
 ---
 
 ### #59 · Language — American Idioms & Slang
-**Score: 3 / 5** 🟢🩷  
-120 idioms across 8 categories, literal vs. real meanings, learned marking, and 20-question quiz rounds. Good content but overlaps significantly with #38 (American Slang Decoder) and #39 (Idiom of the Day). ~3 hrs.  
-→ **Improve:** Differentiate by focusing on academic/professional idioms (business, science, literature) rather than casual idioms — or merge with #39 for a comprehensive idiom platform.
+**Score: 4 / 5** 🟢🩷 ↑  
+120 idioms across 8 distinct categories (casual, business, sports, food, weather, school, etc.) with literal vs. real meanings, learned-card marking, and 20-question quiz rounds. The 8-category breadth is what differentiates this from #38 (teen Gen-Z slang) and #39 (one idiom per day deep dive) — a 13yo immigrant and her mom need idioms across ALL contexts, not just social ones. 120 idioms + 8 categories + quiz = comprehensive coverage that serves both the 13yo and Mom's English personas. ~3 hrs.  
+→ **Improve:** Add bilingual EN/VI translations per idiom — that single addition transforms it from an English-only reference into a true bilingual idiom guide for both personas.
 
 ---
 
@@ -781,7 +782,7 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 |---|-------|----------|-------|----------|
 | 01 | Ender's Game Flashcards | Study | 4 | ↑ was 2 (TTTT + 13yo English) |
 | 02 | LinkedIn Internship Bot | Career | 4 | — |
-| 03 | Prompt Engineering Coach | AI Dev | 3 | — |
+| 03 | Prompt Engineering Coach | AI Dev | 4 | ↑ was 3 (FAANG AI/ML — prompt engineering core by 2029) |
 | 04 | Gemini API Playground | AI Dev | 4 | ↑ was 3 (product launch / entrepreneur) |
 | 05 | AI Agent Idea Generator | AI Dev | 3 | ↑ was 2 (entrepreneur) |
 | 06 | API Error Debugger | AI Dev | 3 | — |
@@ -791,7 +792,7 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | 10 | README Generator | AI Dev | 4 | ↑ was 3 (product launch / entrepreneur) |
 | 11 | Code Comment Generator | AI Dev | 2 | — |
 | 12 | Algorithm Explainer | Study & CS | 4 | — |
-| 13 | CS Concept Simplifier | Study & CS | 3 | — |
+| 13 | CS Concept Simplifier | Study & CS | 4 | ↑ was 3 (TTTT + FAANG) |
 | 14 | Quiz Generator from Notes | Study & CS | 4 | ↑ was 3 (TTTT + 13yo English) |
 | 15 | Study Plan Maker | Study & CS | 3 | ↑ was 2 (TTTT) |
 | 16 | Homework Problem Solver | Study & CS | 4 | ↑ was 3 (TTTT + 13yo English) |
@@ -837,7 +838,7 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | 56 | Vocabulary Builder US High School | Vocabulary | 4 | new |
 | 57 | Pronunciation & Accent Trainer | Pronunciation | 3 | new |
 | 58 | US Teen Social Survival Guide | Social Skills | 4 | new |
-| 59 | American Idioms & Slang | Language | 3 | new |
+| 59 | American Idioms & Slang | Language | 4 | ↑ was 3 (13yo English + Mom's English — 120 idioms × 8 categories) |
 | 60 | Daily Planner & Task Manager | Productivity | 3 | new |
 | 61 | Pomodoro Focus Timer | Productivity | 3 | new |
 | 62 | Brain Dump / Quick Notes | Productivity | 3 | new |
@@ -883,16 +884,16 @@ Telegram bot that creates reminders via slash commands and syncs bidirectionally
 | — | AI Playlist Roaster | AI x Platform | 4 | new |
 | — | Reminder-Bot | Personal Bot | 4 | new |
 
-**Total points:** 386  
+**Total points:** 389  
 **Agents graded:** 103 (100 numbered + 3 special projects)  
-**Current Avg: 3.75 / 5.0**  
-**Target: 4.0 / 5.0** ← all 100 numbered agents graded. Final avg: **3.75** (386 / 103)
+**Current Avg: 3.78 / 5.0**  
+**Target: 4.0 / 5.0** ← all 100 numbered agents graded. Final avg: **3.78** (389 / 103)
 
 ---
 
 ## Path to 4.0
 
-All 103 agents graded (100 numbered + 3 special). Final avg: **3.75 / 5.0** (386 pts). The 4.0 target was not reached. The gap: 0.25 points short. A v2 regrade opportunity exists if quality improves — or if a bonus TTTT/Platform/Personal Bot project scores 5/5 and is added to the count.
+All 103 agents graded (100 numbered + 3 special). Final avg: **3.78 / 5.0** (389 pts). The 4.0 target was not reached. The gap: 0.22 points short. A v2 regrade opportunity exists if quality improves — or if a bonus TTTT/Platform/Personal Bot project scores 5/5 and is added to the count.
 
 **What earns a 4–5:**
 - Directly simulates FAANG interviews (DSA, system design, behavioral) — OR — directly helps a Vietnamese teen learn English in a US school context
